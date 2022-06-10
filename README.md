@@ -1,3 +1,90 @@
+# Frontend Mentor - Interactive rating component solution
+
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
+
+### Screenshot
+
+![](./src/Images/Screenshot.png)
+
+
+### Links
+
+- Solution URL: [here](https://github.com/Lfrancos/interactive-rating-FM-R)
+- Live Site URL: [here](https://lfrancos.github.io/interactive-rating-FM-R/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
+
+### What I learned
+
+This is the first time using React with out any guidance.
+
+ - I learned how to start a React project.
+ - I'm learning little by little what is a component. (I feel like I start to separate a lot of things when they don't need to be separated)
+ - The fact that I've been trying to separate everything has showed me that for big projects it is really good, but for small projects it makes things slower. Still I keep doing it the long way cause I think that is the skill that will ultimately make a difference when working in a team.
+
+### Continued development
+
+This has been a really interesting experience I need to keep working and understanding a lot of things. This has been my first React project by myself the other 2 projects that I have done in React has been following a tutorial. I'm really enjoying the process there are so many things that I still need to understand but that I want to keep practicing and making mistakes to figure out what is the best way to think about components an how to organize them. I really can't believe that I'm already working with React. That is really exiting and I feel that is going to be a really interesting journey from now on : )
+
+ -I need to understand better how to use "useEffect"
+ -I added the error message but I'm not sure if that is the way to add that message. I wanted to do it using JSX but was not able to do it so I had to do it with vanilla javascript.
+
+### Useful resources
+
+To get to this point where I'm developing in React I've used a lot of resources, there have been 3 in particular that have helped me a ton
+
+- [Codecademy](http://www.codecademy.com) the front-end course.
+- [WebDev Simplified](https://javascriptsimplified.com/)
+- [Code With Mosh](https://codewithmosh.com/courses/enrolled/324741)
+
+## Author
+
+- Website - [@lorenzo.francos](https://www.lorenzofrancos.com)
+- Instagram - [@lorenzo.francos](https://www.instagram.com/lorenzo.francos/?hl=en)
+- Github - [@Lfrancos](https://github.com/Lfrancos)
+- Frontend Mentor - [@Lfrancos](https://www.frontendmentor.io/profile/Lfrancos)
+
+---
+
+
+---
+
+
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
