@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Ratings } from '../Ratings/Ratings';
 import {ThankYou} from '../ThankYou/ThankYou';
-import './card.css';
+import './card.scss';
 
 export const Card = () => {
     const [rating, setRating] = useState(null);

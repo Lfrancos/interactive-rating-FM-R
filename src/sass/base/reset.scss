@@ -1,0 +1,143 @@
+@use '../../sass/util/variables' as *;
+@use '../../sass/util/mixins' as *;
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+:root {
+    --color-Orange: 25, 97%, 53%;
+    --color-White: 0, 0%, 100%;
+    --color-Light-Grey: 217, 12%, 63%;
+    --color-Medium-Grey: 216, 12%, 54%;
+    --color-Dark-Blue: hsl(213, 19%, 18%);
+    --colorVery-Dark-Blue: hsl(216, 12%, 8%);
+
+    --font-Overpass: 'Overpass', sans-serif;
+  }
+
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+  }
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  body {
+  min-height: 100vh;
+  line-height: 1.5;
+  }
+  ol, ul {
+  list-style: none;
+  }
+  blockquote, q {
+  quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  content: '';
+  content: none;
+  }
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  }
+  img, picture {
+  width: 100%;
+  display: block;
+  }
+  input,
+  button,
+  textarea,
+  select {
+  font: inherit;
+  }
+
+  /* remove animations for people who've turned them off */
+  @media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  }
+
+
+  h1 {
+  font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+
+    @include breakpoint($s) {
+        font-size: 1.75rem;
+    }
+  }
+
+  p {
+
+    color: hsl(var(--color-Light-Grey));
+    font-size: 14px;
+    @include breakpoint($s) {
+        font-size: 15px;
+    }
+  }
+
+  .error {
+  color: red;
+  }
+
+  a {
+  color: white;
+  }
+  body {
+    font-family: var(--font-Overpass);
+    background-color: var(--colorVery-Dark-Blue);
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }

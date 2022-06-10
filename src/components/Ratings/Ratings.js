@@ -1,6 +1,5 @@
-import './Ratings.css';
 import { Submit } from '../buttons/submit';
-import './Ratings.css';
+import './Ratings.scss';
 import image from './icon-star.svg';
 
 

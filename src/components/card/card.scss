@@ -1,0 +1,15 @@
+@use '../../sass/util/variables' as *;
+@use '../../sass/util/mixins' as *;
+
+.card {
+    margin: 0 auto;
+    min-width: 327px;
+    max-width: 370px;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    background-color: var(--color-Dark-Blue);
+    @include breakpoint($s) {
+        max-width: 412px;
+    }
+}
