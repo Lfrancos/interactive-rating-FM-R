@@ -1,0 +1,49 @@
+.value-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    background-color: hsla(var(--color-Medium-Grey), .3);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: hsl(var(--color-Orange));
+}
+
+.center {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center--up {
+    transform: translate(-50%, -70%);
+    color: white;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+}
+
+/* .card__paragraph {
+    color: hsl(var(--color-Light-Grey));
+} */
+
+.orange {
+    background-color: hsl(var(--color-Orange));
+}
+
+
+.logo {
+    width: 30px;
+}
+

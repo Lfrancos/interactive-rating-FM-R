@@ -1,0 +1,24 @@
+.card--tanks {
+    text-align: center;
+}
+
+
+.image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.thanks__paragraph {
+    margin: 20px;
+}
+
+.result {
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    background-color: hsla(var(--color-Medium-Grey), .1);
+    color: hsl(var(--color-Orange));
+    padding: 3px 20px 10px 20px;
+    width:fit-content;
+    border-radius: 1.875rem;
+
+}
