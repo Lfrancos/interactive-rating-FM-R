@@ -11,5 +11,6 @@
     background-color: var(--color-Dark-Blue);
     @include breakpoint($s) {
         max-width: 412px;
+        padding: 1.875rem;
     }
 }
